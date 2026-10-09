@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore a digital marketing case study by Alish." />
+    <title>Project Case Study | Alish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Caveat:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Alish home">
+          <span class="brand-mark">A</span>
+          <span>Alish</span>
+        </a>
+        <nav class="main-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#work">Work</a>
+          <a href="index.html#testimonials">Testimonials</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <a href="contact.html" class="button button-primary nav-cta">Book a call</a>
+        <button class="theme-toggle" type="button" data-theme-toggle>Light mode</button>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main data-project-detail>
+      <section class="page-hero reveal">
+        <div class="container narrow">
+          <a class="back-link" href="index.html#work">← Back to selected work</a>
+          <p class="section-tag" data-project-category></p>
+          <h1 data-project-title></h1>
+          <p class="lead" data-project-intro></p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container">
+          <div class="case-study-visual" data-project-visual aria-hidden="true"></div>
+          <div class="detail-metrics" data-project-metrics aria-label="Project results"></div>
+          <div class="case-study-grid">
+            <article class="case-study-panel">
+              <p class="section-tag">The challenge</p>
+              <h2>Where it started</h2>
+              <p data-project-challenge></p>
+            </article>
+            <article class="case-study-panel">
+              <p class="section-tag">The approach</p>
+              <h2>How the work took shape</h2>
+              <p data-project-approach></p>
+            </article>
+            <article class="case-study-panel">
+              <p class="section-tag">The outcome</p>
+              <h2>What changed</h2>
+              <p data-project-outcome></p>
+            </article>
+            <article class="case-study-panel case-study-next">
+              <p class="section-tag">Next step</p>
+              <h2>Have a project in mind?</h2>
+              <a href="contact.html" class="button button-primary">Start a conversation</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#work">Work</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Light mode</button>
+        <p class="footer-copyright">© <span id="year"></span> Alish. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

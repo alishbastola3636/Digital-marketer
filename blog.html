@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Alish</title>
+    <meta name="description" content="Marketing ideas, content strategy tips, and growth insights from Alish." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Caveat:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Alish home">
+          <span class="brand-mark">A</span>
+          <span>Alish</span>
+        </a>
+
+        <nav class="main-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="analytics.html">Analytics</a>
+          <a href="blog.html">Blog</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="button button-primary nav-cta">Book a call</a>
+
+        <button class="theme-toggle" type="button" data-theme-toggle>Light mode</button>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero reveal">
+        <div class="container narrow">
+          <p class="section-tag">Blog</p>
+          <h1>Ideas, insights, and strategies that support real growth.</h1>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="container blog-grid">
+          <article class="blog-card reveal">
+            <div class="blog-image image-one"></div>
+            <div class="blog-body">
+              <span>Strategy</span>
+              <h3>Why audience clarity is the foundation of every conversion campaign</h3>
+              <p>Learn how better positioning and focus create stronger conversion paths and cleaner customer journeys.</p>
+            </div>
+          </article>
+
+          <article class="blog-card reveal">
+            <div class="blog-image image-two"></div>
+            <div class="blog-body">
+              <span>Content</span>
+              <h3>How to write marketing content that feels human and performs</h3>
+              <p>Content should connect emotionally and guide decisions. Here’s how to balance both effectively.</p>
+            </div>
+          </article>
+
+          <article class="blog-card reveal">
+            <div class="blog-image image-three"></div>
+            <div class="blog-body">
+              <span>Growth</span>
+              <h3>The small optimization habits that increase campaign efficiency</h3>
+              <p>From creative testing to funnel refinement, these details can create lasting performance gains.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <div class="container footer-wrap">
+        <div>
+          <p class="section-tag">Keep reading</p>
+          <h2>Fresh thinking for modern marketing teams.</h2>
+        </div>
+        <a href="contact.html" class="button button-primary">Work with Alish</a>
+      </div>
+      <div class="container footer-bottom">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html#about">About</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#work">Work</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Light mode</button>
+        <p class="footer-copyright">© <span id="year"></span> Alish. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
